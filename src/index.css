@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,102 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Register page */
+.Register {
+  height: 100vh;
+  width: 100vw;
+  background: #FBF8F0;
+}
+
+.Register-box {
+  border-radius: 2.75rem;
+  background: #FFF;
+  width: 45.75rem;
+  height: 24rem;
+  flex-shrink: 0;
+  margin: auto auto;
+  position: absolute;
+  top: calc(50vh - 11.5rem);
+  left: calc(50vw - 22.875rem);
+}
+
+.Register-text {
+  color: #000;
+  font-size: 2.75rem;
+  font-family: League Spartan;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Register-input {
+  padding-left: 20px;
+  outline: none;
+  box-shadow: inset 0 0 0.3px 0.3px #000000;
+  /* border: 0.3px solid black; */
+  border-radius: 0.8rem;
+  height: 2.5rem;
+  width: 30rem;
+}
+
+.R-text {
+  margin-top: 0.5rem;
+  color: #636363;
+  font-size: 0.7rem;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Register-input::placeholder {
+  /* padding-left: 10px; */
+  color: #000;
+  font-size: 1.125rem;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Register-button {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.8rem;
+  background: #FD8C69;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* Navbar css */
+.Navbar {
+  width: 100dvw;
+  height: 3.5rem;
+  background: #FBF8F0;
+}
+
+.nav-ham {
+  position: absolute;
+  right: 3rem;
+  top: 0.5rem;
+}
+
+/* about us  */
+.Aboutus {
+  width: 100dvw;
+  background: #FBF8F0;
+
+}
+
+.subhead-aboutus {
+  color: #ED5009;
+  font-size: 5.5rem;
+  font-family: League Spartan;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.275rem;
+  text-align: center;
 }
